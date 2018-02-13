@@ -27,5 +27,6 @@ def dealdata(X):
     return Result
 
 result=dealdata(X)
+print(result)#这里用的Python3.6，如果是3.5或者Python2，可能会运行错误
 #最后的result[3,1,4,4,5,24,7]
     

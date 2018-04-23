@@ -73,8 +73,8 @@ for i in range(1,100):
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
 print(scaler.fit(x1))
-Y1=scaler.transform(x1)
-print('线性的方差',np.var(Y1))
+Y0=scaler.transform(x1)
+print('线性的方差',np.var(Y0))
 
 #=========================
 #函数一
